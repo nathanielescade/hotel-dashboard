@@ -25,32 +25,16 @@ Date-fns: Date manipulation library
 LocalStorage: Client-side data persistence
 🚀 Installation
 Clone the repository:
-bash
 
-Collapse
-Copy
-1
 git clone https://github.com/nathanielescade/admin-dashboard.git
 Navigate to the project directory:
-bash
 
-Collapse
-Copy
-1
 cd admin-dashboard
 Install dependencies:
-bash
 
-Collapse
-Copy
-1
 npm install
 Start the development server:
-bash
 
-Collapse
-Copy
-1
 npm run dev
 Open your browser and navigate to http://localhost:3000
 📱 Usage
