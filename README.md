@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Hotel Management System Admin Dashboard
+A stunning neon-themed hotel management system admin dashboard built with Next.js, Tailwind CSS, and Chart.js. Features role-based authentication, responsive design, and comprehensive hotel management tools.
 
-## Getting Started
+🌟 Features
+Neon-themed UI: Vibrant colors with neon accents on a dark background
+Role-based Authentication: Admin and user roles with different access levels
+Responsive Design: Works seamlessly on desktop, tablet, and mobile devices
+Dashboard Overview: Key metrics and visualizations
+Interactive Charts: Booking trends using Chart.js
+Room Management: Real-time room status tracking
+Booking Management: Complete booking system with status indicators
+Guest Management: Guest information and history
+Revenue Tracking: Financial analytics (admin only)
+Service Management: Hotel amenities management (admin only)
+Staff Management: Employee directory (admin only)
+System Settings: Configuration options (admin only)
+Collapsible Sidebar: Mobile-friendly navigation
+Local Storage: User data persistence
+🛠️ Technologies Used
+Next.js: React framework for production
+Tailwind CSS: Utility-first CSS framework
+Chart.js: Data visualization library
+React Icons: Icon library
+Date-fns: Date manipulation library
+LocalStorage: Client-side data persistence
+🚀 Installation
+Clone the repository:
 
-First, run the development server:
+git clone https://github.com/nathanielescade/admin-dashboard.git
+Navigate to the project directory:
 
-```bash
+cd admin-dashboard
+Install dependencies:
+
+npm install
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open your browser and navigate to http://localhost:3000
+📱 Usage
+Demo Credentials
+Admin: admin@hotel.com / admin123
+User: user@hotel.com / user123
+Features by Role
+Admin Access:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Dashboard overview
+Bookings management
+Rooms management
+Guests management
+Revenue tracking
+Services management
+Staff management
+System settings
+User Access:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Dashboard overview
+Bookings management
+Rooms management
+Guests management
+Navigation
+Use the sidebar to navigate between different sections
+On mobile devices, click the menu button to toggle the sidebar
+Click the logout button in the sidebar to sign out
+🎨 UI Description
+The dashboard features a stunning neon aesthetic with:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Dark background with vibrant neon accents
+Gradient buttons with glow effects
+Animated charts with neon colors
+Glass-morphism cards with subtle borders
+Smooth transitions and hover effects
+Responsive grid layouts that adapt to all screen sizes
+🤝 Contributing
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Learn More
+Fork the project
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-To learn more about Next.js, take a look at the following resources:
+🙏 Acknowledgments
+Inspired by modern dashboard designs
+Built with passion for creating exceptional user experiences
+Created by Nathaniel Escade
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel the electric vibe of this neon dashboard! ⚡
